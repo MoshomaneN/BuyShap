@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* light gray background */
+  color: #374151; /* dark gray text */
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Example button style */
+button.primary {
+  background-color: #16a34a; /* green-600 */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+button.primary:hover {
+  background-color: #15803d; /* green-700 */
+}
